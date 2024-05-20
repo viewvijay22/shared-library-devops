@@ -1,3 +1,3 @@
 def call() {
- sh 'echo the above stage is passed'
+ sh 'mvn clean install'
 }
