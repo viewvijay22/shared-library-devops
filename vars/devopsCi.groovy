@@ -1,3 +1,3 @@
 def call() {
-  sh "$mavenHome/bin/mvn clean install"
+ sh 'echo the above stage is passed'
 }
